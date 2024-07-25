@@ -2,6 +2,19 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+export PATH=/opt/nvim-linux64/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/sbin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/sbin::$PATH
+export PATH=/bin:$PATH
+export PATH=~/.fzf/bin:$PATH
+
+
+
+
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -117,7 +130,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:/home/janekw1ck/.spicetify
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 complete -F _fzf_path_completion -o default -o bashdefault ll
