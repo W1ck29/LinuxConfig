@@ -26,6 +26,7 @@ exec --no-startup-id /home/janekw/screenSetup.sh
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/i3/scripts/launch_polybar.sh
+exec_always --no-startup-id feh --bg-fill ~/.config/wallpapers/houseindark.png
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
