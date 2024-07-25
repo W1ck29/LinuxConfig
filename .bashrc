@@ -10,6 +10,7 @@ export PATH=/usr/bin:$PATH
 export PATH=/sbin::$PATH
 export PATH=/bin:$PATH
 export PATH=~/.fzf/bin:$PATH
+export PATH=~/.local/kitty.app/bin:$PATH
 
 
 
@@ -137,3 +138,4 @@ alias pbcopy="xsel --input --clipboard"
 alias pbpaste="xsel --output --clipboard"
 alias neofzf='nvim $(fzf --preview="batcat --color=always {}")'
 alias cat="batcat --color=always "
+
