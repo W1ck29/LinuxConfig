@@ -5,5 +5,6 @@ cp -r ../picom .
 cp -r ../polybar .
 cp -r ../rofi .
 cp -r ../wallpapers .
+cp ~/.bashrc .
 git add .
 git status

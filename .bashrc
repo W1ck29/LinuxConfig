@@ -137,5 +137,6 @@ complete -F _fzf_path_completion -o default -o bashdefault ll
 alias pbcopy="xsel --input --clipboard"
 alias pbpaste="xsel --output --clipboard"
 alias neofzf='nvim $(fzf --preview="batcat --color=always {}")'
-alias cat="batcat --color=always "
+alias cat='/bin/cat'
+alias bcat="batcat --color=always "
 
