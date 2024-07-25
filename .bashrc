@@ -140,3 +140,5 @@ alias neofzf='nvim $(fzf --preview="batcat --color=always {}")'
 alias cat='/bin/cat'
 alias bcat="batcat --color=always "
 
+
+export PATH=$PATH:/home/janekw/.spicetify

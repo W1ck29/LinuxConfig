@@ -6,5 +6,6 @@ cp -r ../polybar .
 cp -r ../rofi .
 cp -r ../wallpapers .
 cp ~/.bashrc .
+cp -r ~/.spicetify . 
 git add .
 git status
