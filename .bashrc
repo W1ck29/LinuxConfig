@@ -11,7 +11,7 @@ export PATH=/sbin::$PATH
 export PATH=/bin:$PATH
 export PATH=~/.fzf/bin:$PATH
 export PATH=~/.local/kitty.app/bin:$PATH
-
+export PATH=~/yazi/target/release:$PATH
 
 
 
@@ -142,3 +142,4 @@ alias bcat="batcat --color=always "
 
 
 export PATH=$PATH:/home/janekw/.spicetify
+. "$HOME/.cargo/env"
