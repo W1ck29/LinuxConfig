@@ -22,7 +22,7 @@ font pango:MesloLGS NF 14
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id /home/janekw/screenSetup.sh
+exec --no-startup-id /home/janekw/.config/i3/scripts/screenSetup.sh
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/i3/scripts/launch_polybar.sh
