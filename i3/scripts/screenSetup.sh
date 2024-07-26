@@ -15,6 +15,7 @@ if [ $hdmi1_status -eq 1 ] && [ $dp1_status -eq 1 ]; then
   xrandr --verbose --addmode HDMI-1 "2560x1080_75.00"
   xrandr --output HDMI-1 --mode "2560x1080_75.00"
   xrandr --output DP-1 --left-of HDMI-1
+  xrandr --output HDMI-1 --mode 2560x1080 --rate 75
 fi
 
 # Ustawienia dla HDMI-0 i DP-0 jeśli są podłączone
@@ -22,4 +23,5 @@ if [ $hdmi0_status -eq 1 ] && [ $dp0_status -eq 1 ]; then
   xrandr --verbose --addmode HDMI-0 "2560x1080_75.00"
   xrandr --output HDMI-0 --mode "2560x1080_75.00"
   xrandr --output DP-0 --left-of HDMI-0
+  xrandr --output HDMI-0 --mode 2560x1080 --rate 75
 fi
