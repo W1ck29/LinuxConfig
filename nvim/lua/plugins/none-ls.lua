@@ -13,6 +13,6 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<c-f>", vim.lsp.buf.format, {})
+		vim.keymap.set("n", "<c-e>", vim.lsp.buf.format, {})
 	end,
 }
